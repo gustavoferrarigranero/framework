@@ -1,0 +1,16 @@
+.list-box h1,.form-box h1{
+    border-bottom: 3px solid #231f20;
+    border-right: 3px solid #00A69C;
+    color: #00A69C;
+}
+.list-box h1:before,.list-box h1:before{
+    color: #231f20;
+    content: 'Listagem de ';
+}
+.form-box h1:before{
+    color: #231f20;
+    content: 'Alterar ';
+}
+.list-box h1 > div > a{
+    margin: 2px 3px 10px 0;
+}
